@@ -1,4 +1,4 @@
-INT HideProcInvertPtr()
+INT HideProcInvertPtr(VOID)
 {
     PLDR_DATA_TABLE_ENTRY pLdm;
     PPEB_LDR_DATA         pLdr;
